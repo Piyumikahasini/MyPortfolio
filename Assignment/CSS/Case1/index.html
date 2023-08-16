@@ -7,37 +7,34 @@
     <link rel="stylesheet" href="../necolas.github.io_normalize.css_8.0.1_normalize.css">
 
     <style>
-        body>section>section:first-child{
+        body>section>section>section:first-child{
+            background-color: red;
             width: 50vw;
             height: 50vh;
             position: absolute;
             display: inline-block;
             left: 0;
             top:0;
-            background-color: red;
-
         }
-        body>section>section:nth-child(2){
+        body>section>section>section:nth-child(2){
+            background-color: green;
             width: 50vw;
             height: 50vh;
             position: absolute;
             display: inline-block;
             right: 0;
             top:0;
-            background-color: green;
-
         }
-        body>section>section:nth-child(3){
+        body>section>section>section:nth-child(3){
+            background-color: orange;
             width: 50vw;
             height: 50vh;
             position: absolute;
             display: inline-block;
             left: 0;
             bottom:0;
-            background-color: orange;
-
         }
-        body>section>section:last-child{
+        body>section>section>section:last-child{
             width: 50vw;
             height: 50vh;
             position: absolute;
@@ -47,8 +44,8 @@
             background-color: hotpink;
 
         }
-        body>div{
-            width: 10vw;
+        body>section>div{
+            width: 20vw;
             height: 20vh;
             position: absolute;
             margin: auto;
@@ -59,9 +56,10 @@
             background-color: white;
 
         }
-        body>div>div{
+        body>section>div>div{
+            background-color: red;
             border-radius: 100%;
-            width: 50%;
+            width: 40%;
             height: 50%;
             position: absolute;
             margin: auto;
@@ -69,10 +67,8 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: red;
-
         }
-        body>section>section:first-child>div{
+        body>section>section>section:first-child>div{
             width: 30%;
             height: 60%;
             border-radius: 100%;
@@ -85,7 +81,7 @@
             background-color: white;
 
         }
-        body>section>section:nth-child(2)>div{
+        body>section>section>section:nth-child(2)>div{
             width: 30%;
             height: 60%;
             border-radius: 100%;
@@ -98,7 +94,7 @@
             background-color: white;
 
         }
-        body>section>section:nth-child(3)>div{
+        body>section>section>section:nth-child(3)>div{
             width: 30%;
             height: 60%;
             border-radius: 100%;
@@ -111,7 +107,7 @@
             background-color: white;
 
         }
-        body>section>section:last-child>div{
+        body>section>section>section:last-child>div{
             width: 30%;
             height: 60%;
             border-radius: 100%;
@@ -124,7 +120,8 @@
             background-color: white;
 
         }
-        body>section>section:first-child>div>div{
+        body>section>section>section:first-child>div>div{
+            background-color: red;
             width: 8vw;
             height: 16vh;
             position: absolute;
@@ -133,10 +130,9 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: red;
-
         }
-        body>section>section:nth-child(2)>div>div{
+        body>section>section>section:nth-child(2)>div>div{
+            background-color: red;
             width: 8vw;
             height: 16vh;
             position: absolute;
@@ -145,10 +141,9 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: red;
-
         }
-        body>section>section:nth-child(3)>div>div{
+        body>section>section>section:nth-child(3)>div>div{
+            background-color: red;
             width: 8vw;
             height: 16vh;
             position: absolute;
@@ -157,10 +152,9 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: red;
-
         }
-        body>section>section:last-child>div>div{
+        body>section>section>section:last-child>div>div{
+            background-color: red;
             width: 8vw;
             height: 16vh;
             position: absolute;
@@ -169,89 +163,153 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: red;
-
         }
-        .squer1{
+        .squre1{
             left: 0;
             top: 0;
-            width: 8%;
-            height: 16%;
+            width: 7%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-bottom-right-radius: 200px;
-            background-color: white;
+            background-color: white
 
         }
         .squre2{
             right: 0;
             top: 0;
-            width: 8%;
-            height: 16%;
+            width: 7%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-bottom-left-radius: 200px;
-            background-color: white;
+            background-color: white
 
         }
         .squre3{
             left: 0;
             bottom: 0;
-            width: 8%;
-            height: 16%;
+            width: 7%;
+            height: 10%;
             position: absolute;
             margin: auto;
             border-top-right-radius: 200px;
-            background-color: white;
+            background-color: white
 
         }
         .squre4{
+            background-color: white;
             right: 0;
             bottom: 0;
-            width: 8%;
-            height: 16%;
+            width: 7%;
+            height: 10%;
             position: absolute;
             margin: auto;
-            border-top-left-radius: 200px;
-            background-color: white;
-
+            border-top-left-radius: 200px
         }
-
+        .squre5{
+            background-color: white;
+            width: 10%;
+            height: 10%;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 250px;
+            border-top-right-radius: 250px
+        }
+        .squre6{
+            background-color: white;
+            width: 10%;
+            height: 10%;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            border-bottom-left-radius: 250px;
+            border-bottom-right-radius: 250px
+        }
+        body>section{
+            position: relative;
+            width: 100vw;
+            height:100vh
+        }
     </style>
 </head>
 <body>
 <section>
-    <section>
-        <div>
-            <div></div>
-        </div>
+    <section >
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
     </section>
+    <div>
+        <div></div>
+    </div>
     <section>
-        <div>
-            <div></div>
-        </div>
-    </section>
-    <section>
-        <div>
-            <div></div>
-        </div>
-    </section>
-    <section>
-        <div>
-            <div></div>
-        </div>
+        <div class="squre1"></div>
+        <div class="squre2"></div>
+        <div class="squre3"></div>
+        <div class="squre4"></div>
+        <div class="squre5"></div>
+        <div class="squre6"></div>
     </section>
 </section>
-<div>
-    <div></div>
-</div>
+
 <section>
-    <div class="squer1"></div>
-    <div class="squre2"></div>
-    <div class="squre3"></div>
-    <div class="squre4"></div>
-    <div></div>
-    <div></div>
+    <section >
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div></div>
+            </div>
+        </section>
+    </section>
+    <div>
+        <div></div>
+    </div>
+    <section>
+        <div class="squre1"></div>
+        <div class="squre2"></div>
+        <div class="squre3"></div>
+        <div class="squre4"></div>
+        <div class="squre5"></div>
+        <div class="squre6"></div>
+    </section>
 </section>
 </body>
 </html>
+
