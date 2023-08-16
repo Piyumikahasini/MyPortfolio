@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/necolas.github.io_normalize.css_8.0.1_normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case1/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case1/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS" />
+    <property name="last_opened_file_path" value="C:/My-Portfolio/assignments/CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,6 +41,8 @@
       <workItem from="1690604986371" duration="189000" />
       <workItem from="1692090505526" duration="6880000" />
       <workItem from="1692146449319" duration="551000" />
+      <workItem from="1692147948054" duration="1163000" />
+      <workItem from="1692149180144" duration="58000" />
     </task>
     <servers />
   </component>

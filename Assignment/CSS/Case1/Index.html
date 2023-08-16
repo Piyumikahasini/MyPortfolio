@@ -2,228 +2,243 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Case 1</title>
-    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hexagone </title>
     <link rel="stylesheet" href="../necolas.github.io_normalize.css_8.0.1_normalize.css">
 
-
-
     <style>
-        section>:first-child{
-            position: absolute;
-            top: 0px;
-            left: 0px;
+        .div1{
+            display: inline-block;
+            width: 50vw;
+            height: 50vh;
             background-color: red;
-            width: 115vh;
-            height: 50vh;
-        }
-        section>:nth-child(2){
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            background-color: green;
-            width: 115vh;
-            height: 50vh;
-        }
-        section>:nth-child(3){
-            position: absolute;
-            bottom: 0px;
-            left: 0px;
-            background-color: orange;
-            width: 115vh;
-            height: 50vh;
-        }
-        section>:nth-child(4){
-            position: absolute;
-            bottom: 0px;
-            right: 0px;
-            background-color: hotpink;
-            width: 115vh;
-            height: 50vh;
-        }
 
-        section>:first-child>:last-child{
+        }
+        .div2{
+            width: 50vw;
+            height: 50vh;
+            display: inline-block;
             position: absolute;
-            width: 100px;
-            height: 100px;
-            background-color: white;
+            background-color: green;
+
+        }
+        .div3{
+            display: inline-block;
+            width: 50vw;
+            height: 50vh;
+            background-color: orange;
+
+        }
+        .div4{
+            display: inline-block;
+            position: absolute;
+            width: 50vw;
+            height: 50vh;
+            background-color: hotpink;
+
+        }
+        .circle1{
+            position: absolute;
+            background-color: white ;
+            width: 9%;
+            height:19% ;
             border-bottom-right-radius: 100%;
         }
-        section>:nth-child(2)>:last-child{
+        .circle2{
             position: absolute;
-            width: 100px;
-            height: 100px;
-            top: 0px;
-            right: 0px;
+            background-color: aliceblue;
+            width: 15%;
+            height: 25%;
+            border-radius: 100%;
+            left: 20%;
+            top: 15%;
+        }
+        .circle3{
+            position: absolute;
             background-color: white;
+            width: 10%;
+            height:20% ;
+            left: 44%;
             border-bottom-left-radius: 100%;
         }
-        section>:nth-child(3)>:last-child{
+        .circle4{
             position: absolute;
-            width: 100px;
-            height: 100px;
-            bottom: 0px;
-            left: 0px;
             background-color: white;
+            width: 16%;
+            height:35% ;
+            border-bottom-right-radius: 100%;
+        }
+        .square1{
+            display: inline-block;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            margin-left: 25%;
+            margin-top: 20%;
+            background-color: red;
+
+
+        }
+        .circle5{
+            position: absolute;
+            background-color: white;
+            width: 28%;
+            height: 48%;
+            border-radius: 100%;
+            left: 42%;
+            top: 25%;
+        }
+        .square2{
+            display: inline-block;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            margin-left: 25%;
+            margin-top: 20%;
+            background-color: red;
+
+        }
+        .circle6{
+            position: absolute;
+            background-color: white;
+            width: 22%;
+            height:45% ;
+            left: 78%;
+            border-bottom-left-radius: 100%;
+        }
+        .circle7{
+            position: absolute;
+            background-color: white;
+            display: inline-block;
+            width: 11%;
+            height:20% ;
+            bottom: -5%;
+            left: 0%;
             border-top-right-radius: 100%;
         }
-        section>:nth-child(4)>:last-child{
+        .circle8{
             position: absolute;
-            width: 100px;
-            height: 100px;
-            bottom: 0px;
-            right: 0px;
+            width: 15%;
+            height: 25%;
+            border-radius: 100%;
+            left: 20%;
+            bottom: 12%;
+        }
+        .square3{
+            display: inline-block;
+            background-color: white;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            margin-left: 25%;
+            margin-top: 20%;
+            background-color: red;
+
+        }
+        .circle9{
+            position: absolute;
+            display: inline-block;
+            background-color: white;
+            width: 11%;
+            height:20% ;
+            bottom: -5%;
+            left: 43%;
+            border-top-left-radius: 100%;
+        }
+        .circle10{
+            position: absolute;
+            display: inline-block;
+            background-color: white;
+            width: 20%;
+            height:38% ;
+            bottom: 0%;
+            left: 0%;
+            border-top-right-radius: 100%;
+        }
+        .circle11{
+            position: absolute;
+            width: 30%;
+            height: 45%;
+            background-color: white;
+            border-radius: 100%;
+            left: 40%;
+            bottom: 30%;
+
+        }
+        .square4{
+            display: inline-block;
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            margin-left: 25%;
+            margin-top: 20%;
+            background-color: red;
+
+        }
+        .circle12{
+            position: absolute;
+            display: inline-block;
+            width: 20%;
+            height:38% ;
+            bottom: 0%;
+            left: 80%;
             background-color: white;
             border-top-left-radius: 100%;
         }
-        section>:first-child>:first-child{
+        .div5{
+            width: 10vw;
+            height: 20vh;
             position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 150px;
-            height: 150px;
+            top: 40%;
+            left: 46%;
+            right: 0;
+            bottom: 0;
             background-color: white;
-            border-radius: 100%;
-        }
-        section>:nth-child(2)>:first-child{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 150px;
-            height: 150px;
-            background-color: white;
-            border-radius: 100%;
-        }
-        section>:nth-child(3)>:first-child{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 150px;
-            height: 150px;
-            background-color: white;
-            border-radius: 100%;
-        }
-        section>:nth-child(4)>:first-child{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 150px;
-            height: 150px;
-            background-color: white;
-            border-radius: 100%;
 
         }
-        section>:first-child>:first-child>div{
+        .circle13{
+            width: 5vw;
+            height: 5vw;
+            left: 25%;
+            top: 25%;
             position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 50px;
-            height: 50px;
-            background-color: red;
-        }
-        section>:nth-child(2)>:first-child>div{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 50px;
-            height: 50px;
-            background-color: red;
-        }
-        section>:nth-child(3)>:first-child>div{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 50px;
-            height: 50px;
-            background-color: red;
-        }
-        section>:nth-child(4)>:first-child>div{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 50px;
-            height: 50px;
-            background-color: red;
-        }
-        section>:last-child{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 150px;
-            height: 150px;
-            background-color: white;
-        }
-        section>:last-child>div{
-            position: absolute;
-            top: 0px;
-            bottom: 0px;
-            right: 0px;
-            left: 0px;
-            margin: auto;
-            width: 50px;
-            height: 50px;
-            background-color: red;
             border-radius: 100%;
+            background-color: red;
         }
-
     </style>
-<!--    <link rel="stylesheet" href="../necolas.github.io_normalize.css_8.0.1_normalize.css">-->
 </head>
 <body>
 <section>
-    <div>
-        <div>
-            <div></div>
+    <div class="div1">
+        <div class="circle1"></div>
+        <div class="circle2">
+            <div class="square1"></div>
         </div>
-        <div></div>
+        <div class="circle3"></div>
     </div>
-    <div>
-        <div>
-            <div></div>
+    <div class="div2">
+        <div class="circle4"></div>
+        <div class="circle5">
+            <div class="square2"></div>
         </div>
-        <div></div>
+        <div class="circle6"></div>
     </div>
-    <div>
-        <div>
-            <div></div>
+    <div class="div3">
+        <div class="circle7"></div>
+        <div class="circle8">
+            <div class="square3"></div>
         </div>
-        <div></div>
+        <div class="circle9"></div>
     </div>
-    <div>
-        <div>
-            <div></div>
+    <div class="div4">
+        <div class="circle10"></div>
+        <div class="circle11">
+            <div class="square4"></div>
         </div>
-        <div></div>
+        <div class="circle12"></div>
     </div>
-    <div>
-        <div></div>
+    <div class="div5">
+        <div class="circle13"></div>
     </div>
 </section>
 </body>
