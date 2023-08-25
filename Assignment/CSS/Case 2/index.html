@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+
+    <title>Case 2</title>
+
+    <style>
+
+        body{
+        }
+        body>header{
+            height: 7vh;
+            border: 2px solid black;
+            position: relative;
+        }
+        body>header>img{
+            position: absolute;
+            width: 15%;
+            height: 70%;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        body>header>nav{
+            position: absolute;
+            width: 30%;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+
+
+        body>header>nav>ul > li {
+            padding-right: 5%;
+            display: inline-block;
+        }
+
+        body>header>nav>ul > li > a {
+            color: black;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            font-size: 1.2vw;
+            text-decoration: none;
+
+        }
+        body>main{
+            height: 90vh;
+            position: relative;
+        }
+        body >main >nav{
+            position: absolute;
+            background-color: indigo;
+            width: 15%;
+            height: 100%;
+            font-size: 1.3vw;
+        }
+
+        body>main>nav>ul{
+            padding-inline-start: 3vw;
+        }
+        body >main >nav >ul >li{
+            display: block;
+            padding-top: 10%;
+
+        }
+        body >main >nav >ul >li >a{
+            text-decoration: none;
+            color: white;
+            font-family: "Times New Roman";
+            font-weight: bold;
+        }
+        main > section {
+            height: 100%;
+            margin-left: 14vw;
+            padding-top: 1%;
+            padding-left: 2%;
+            padding-right: 2%;
+            border-top: 1px solid black;
+            border-bottom: 7px solid black;
+        }
+
+        main > section > section:first-child{
+            height: 40%;
+            position: relative;
+        }
+
+        main > section > section:first-child > div {
+            position: absolute;
+            display: inline-block;
+            border-top: 1.5px solid red;
+            border-bottom: 1.5px solid green;
+            height: 100%;
+            width: calc(100%/3);
+            background-color: lightgrey;
+        }
+
+        main > section > section:first-child > div:first-child{
+            left: 0;
+            border-left: 2px solid red;
+            border-right: 2px solid green;
+        }
+
+        main > section > section:first-child > div:nth-child(2){
+            left: calc(100% / 3);
+            border-left: 2px solid green;
+            border-right: 2px solid green;
+        }
+
+        main > section > section:first-child > div:last-child{
+            right: 0;
+            border-left: 2px solid green;
+            border-right: 2px solid red;
+        }
+
+        main > section > section:first-child > div>img{
+            width: 100%;
+            height: 100%;
+        }
+
+        main>section>section:last-child{
+            position: relative;
+            height: 55%;
+        }
+
+        main>section>section:last-child>p{
+            height: 10%;
+            font-size: 1vw;
+
+        }
+
+        footer {
+            position: relative;
+            height: 3vh;
+            background-color: gray;
+            width: 100%;
+        }
+        footer>h5{
+            position: absolute;
+            height: 100%;
+            font-size: 1vw;
+            color: white;
+            margin: 0;
+            padding-left: 48%;
+            padding-top: 0.2%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<header>
+    <img src="assests/ijse.png" alt="ijse">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+    <section>
+        <section>
+            <div>
+                <img  src="assests/Monkey.gif" alt="monkey image" >
+            </div>
+            <div>
+                <img  src="assests/Monkey.gif" alt="monkey image" >
+            </div>
+            <div>
+                <img  src="assests/Monkey.gif" alt="monkey image" >
+            </div>
+        </section>
+
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem laudantium aperiam voluptas iusto odio molestias dolorem quos delectus. Nihil, fuga libero. Saepe maiores incidunt voluptas nulla laboriosam nisi fugit suscipit!</p>
+
+        </section>
+
+    </section>
+
+</main>
+
+<footer>
+    <h5>Developed by IJSE</h5>
+</footer>
+</body>
+</html>

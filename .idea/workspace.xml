@@ -4,6 +4,7 @@
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/necolas.github.io_normalize.css_8.0.1_normalize.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,19 @@
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,6 +69,11 @@
       <workItem from="1692208929477" duration="272000" />
       <workItem from="1692209470733" duration="56000" />
       <workItem from="1692209807889" duration="40000" />
+      <workItem from="1692329707141" duration="55000" />
+      <workItem from="1692794802795" duration="2868000" />
+      <workItem from="1692852461090" duration="719000" />
+      <workItem from="1692940945487" duration="1539000" />
+      <workItem from="1692944492256" duration="1001000" />
     </task>
     <servers />
   </component>
