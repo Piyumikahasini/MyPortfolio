@@ -1,76 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
 
-    <title>Case 6</title>
+    <title>Case 6 </title>
 
     <style>
         body {
             font-size: 0;
-            width: 100%;
-            height: 100vh;
         }
-
-        section {
-            width: 100%;
-            height: 100vh;
-            display: inline-block;
+        body>div {
             position: absolute;
-        }
-
-        aside {
             display: inline-block;
-            margin-left: 74%;
+            border: 1px solid black;
+            box-sizing: border-box;
         }
-
-        aside>img {
-            width: 25.6vw;
-            height: 106vh;
+        body>div:nth-child(2) {
+            left: 50%;
         }
-
-        section>img {
-            width: 25vw;
-            height: 35.33vh;
+        body>div:nth-child(3) {
+            width: 25%;
+            right: 0;
+            height: 100vh;
         }
-
-        section>img:nth-child(1) {
-            width: 50vw;
-            height: 35.33vh;
+        body>div:nth-child(4) {
+            margin-top: 33.33vh;
+            left: 0;
         }
-
-        section>img:nth-child(7) {
-            width: 50vw;
-            height: 35.33vh;
+        body>div:nth-child(5) {
+            margin-top: 33.33vh;
+            left: 25%;
+        }
+        body>div:nth-child(6) {
+            margin-top: 33.33vh;
+            left: 50%;
+        }
+        body>div:nth-child(7) {
+            margin-top: 66.66vh;
+            left: 0;
+        }
+        body>div:nth-child(8) {
+            margin-top: 66.66vh;
+            left: 25%;
+        }
+        .normal {
+            width: 25%;
+            height: 33.33vh;
+        }
+        .long {
+            width: 50%;
+            height: 33.33vh;
+        }
+        img {
+            width: 100%;
+            height: 100%;
         }
     </style>
-
+    <link rel="stylesheet" href="../Case 5/normalize.css">
 </head>
-
 <body>
-<main>
-    <section>
-        <img src="asset/img1.jpg" alt="image">
-        <img src="asset/img2.jpg" alt="image">
-        <img src="asset/img3.jpg" alt="image">
-        <img src="asset/img4.jpg" alt="image">
-        <img src="asset/img5.jpg" alt="image">
-        <img src="asset/img6.jpg" alt="image">
-        <img src="asset/img7.jpg" alt="image">
-
-    </section>
-
-    <aside>
-        <img src="asset/img3.jpg" alt="image">
-    </aside>
-
-</main>
-
-
-
+<div class="long">
+    <img src="asset/img1.jpg" alt="image">
+</div>
+<div class="normal">
+    <img src="asset/img2.jpg" alt="image">
+</div>
+<div>
+    <img src="asset/img3.jpg" alt="image">
+</div>
+<div class="normal">
+    <img src="asset/img4.jpg" alt="image">
+</div>
+<div class="normal">
+    <img src="asset/img5.jpg" alt="">
+</div>
+<div class="normal">
+    <img src="asset/img6.jpg" alt="">
+</div>
+<div class="normal">
+    <img src="asset/img7.jpg" alt="">
+</div>
+<div class="long">
+    <img src="asset/img3.jpg" alt="">
+</div>
 </body>
-
 </html>
