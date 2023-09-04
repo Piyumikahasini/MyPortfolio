@@ -2,99 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-
-    <title>Case 3</title>
+    <title> Case 3 </title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <style>
-        body{
+        body>section {
+            width: 100%;
+            height: 100vh;
             position: relative;
-            height: 300vh;
         }
-
-        body>div:first-child{
-            width: 260px;
-            height: 260px;
-            border: 16px solid dimgray;
-            border-radius: 100%;
+        body>section:first-child>div:nth-child(2) {
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;
+            border: 15px solid grey;
             position: fixed;
             top: 0;
+            bottom: 0;
             left: 0;
             right: 0;
-            bottom: 0;
             margin: auto;
         }
-
-        body>div:nth-child(2){
-            width: 230px;
-            height: 230px;
-            border: 16px solid red;
-            border-radius: 100%;
+        body>section:first-child>div>div {
+            width: 180px;
+            height: 180px;
+            border-radius: 200px;
+            border: 15px solid red;
             position: fixed;
             top: 0;
-            left: 0;
-            right: 0;
             bottom: 0;
-            margin: auto;
-        }
-
-        body>div:nth-child(3){
-            width: 230px;
-            height: 230px;
-            background-color: mediumpurple;
-            border-radius: 100%;
-            position: absolute;
-            top: 240px;
             left: 0;
             right: 0;
             margin: auto;
         }
-
-        body>div:nth-child(4){
-            width: 230px;
-            height: 230px;
-            background-color: cornflowerblue;
-            border-radius: 100%;
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: #6a0dad;
+            border-radius: 200px;
             position: absolute;
             top: 0;
-            left: 0;
-            right: 0;
             bottom: 0;
-            margin: auto;
-        }
-
-        body>div:nth-child(5){
-            width: 230px;
-            height: 230px;
-            background-color: coral;
-            border-radius: 100%;
-            position: absolute;
             left: 0;
             right: 0;
-            bottom: 240px;
             margin: auto;
         }
-
-        body>div>p{
-            text-align: center;
+        body>section:nth-child(2)>div{
+            background-color: #00FFEF;
+            display: inline-block;
+        }
+        body>section:nth-child(3)>div{
+            background-color: #fA8128;
+        }
+        h2 {
+            position: absolute;
             color: white;
-            font-size: 30px;
-            position: relative;
-            top: 55px;
+            text-align: center;
+            margin: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
-
-        body>div:nth-child(5)>p{
-            top: 10px;
+        body>section:first-child {
+            z-index: 2;
         }
-
+        body>section:nth-child(2) {
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
-
-<div></div>
-<div></div>
-<div><p>Hello</p></div>
-<div><p>Welcome To</p></div>
-<div><p>Institute <br> of <br> Software <br> Engineering</p></div>
+<section>
+    <div class="circle">
+        <h2>Hello</h2>
+    </div>
+    <div>
+        <div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="circle">
+        <h2>Welcome To</h2>
+    </div>
+</section>
+<section>
+    <div class="circle">
+        <h2>Institute <br> of <br>Software Engineering</h2>
+    </div>
+</section>
 </body>
 </html>

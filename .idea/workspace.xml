@@ -4,6 +4,9 @@
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case 3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case 3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case 4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case 4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case 6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case 6/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/CSS/Case1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Case1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +16,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2TEOs7tVNmqfO92Bj7AXYod5oVF" />
   <component name="ProjectViewState">
@@ -31,21 +42,6 @@
       <recent name="D:\WorkZone\MyPortfolio\asset" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +80,11 @@
       <workItem from="1693472983300" duration="3432000" />
       <workItem from="1693642505297" duration="2858000" />
       <workItem from="1693648140796" duration="4359000" />
+      <workItem from="1693654340386" duration="98000" />
+      <workItem from="1693654489429" duration="545000" />
+      <workItem from="1693655479451" duration="1894000" />
+      <workItem from="1693727160142" duration="10372000" />
+      <workItem from="1693795385847" duration="2913000" />
     </task>
     <servers />
   </component>
