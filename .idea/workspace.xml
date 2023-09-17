@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/homeblack&amp;white.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/homecolour.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -44,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 1\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 1" />
       <recent name="D:\WorkZone\MyPortfolio\asset" />
@@ -114,6 +117,10 @@
       <workItem from="1694934074190" duration="39000" />
       <workItem from="1694934635256" duration="170000" />
       <workItem from="1694938564600" duration="598000" />
+      <workItem from="1694964508001" duration="1032000" />
+      <workItem from="1694966082342" duration="39000" />
+      <workItem from="1694966844187" duration="526000" />
+      <workItem from="1694967461276" duration="31000" />
     </task>
     <servers />
   </component>
