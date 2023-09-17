@@ -1,263 +1,382 @@
-<!-- preamble -->
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <title>Portfolio</title>
-    <base href="">
     <meta charset="UTF-8">
-    <link rel="icon" href="tick.png">
-    <meta name="keyword" content="Software Engineering , Developer , Project , Hasini , Piyumika , Software ">
-    <meta name="description" content="Software Engineering">
-    <meta name="owner" content="Hasini Piyumika">
-    <meta name="author" content="Hasini Piyumika">
-    <meta name="theme-color" content="red">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Document</title>
+
 </head>
 <body>
-<header>
-    <section><h1>MyPortfolio</h1></section>
-    <nav>
-        <menu>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </menu>
+<header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#skills">Skills</a>
+        <a href="#project">Project</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+
     </nav>
 </header>
-
-<main>
-    <section>
-        <dfn id="home"></dfn>
-        <section>
-            <hgroup>
-                <h1><b>I'm Hasini Piyumika</b></h1>
-                <h4>WEB DESIGNER / UI DESIGNER / GRAPGICS DESIGNER </h4>
-            </hgroup>
-            <p><b>My mission is to help your business growth <br>my conversion -focused branding, desing, markerting and comunication expertise.</b></p>
-
-            <img width="300" src="assests/mine.png" alt="Site owner">
-        </section>
-        <a href="#home"><b>Discover my work</b></a>
+<!--<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">-->
+<!--    <path fill="#4BFBFB" d="M53.2,-67.2C65.6,-53.1,69.8,-33.1,73.8,-12.6C77.9,7.8,81.9,28.7,74,43.1C66.1,57.5,46.4,65.5,27.3,70.5C8.2,75.6,-10.4,77.7,-29.2,73.7C-48,69.7,-67,59.7,-76.4,43.9C-85.8,28.1,-85.6,6.5,-80.3,-12.5C-75,-31.5,-64.5,-48,-50.3,-61.7C-36,-75.5,-18,-86.6,1.2,-88.1C20.4,-89.5,40.9,-81.3,53.2,-67.2Z" transform="translate(100 100)" />-->
+<!--</svg>-->
 
 
-        <section>
-            <dfn id="about"></dfn>
-            <section><h1>About Me</h1></section>
-            <section>
-                <h2><b>Hello , I'm Piyumika</b></h2>
-            </section>
+<!--Home section design-->
 
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Hasini Piyumika</h1>
+        <h3>And I'm a <span>Frontend Developer</span></h3>
+        <p>My mission is to help your business growth my conversion -focused branding,
+            <br>desing, markerting and comunication expertise.</p>
 
-            <img width="400" src="assests/mine.png" alt="Developer Image">
-            <section>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"> <i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
 
-                <div>
-                    <p><b>I have started corporate training to become a software engineer
-                        <br> And I have already completed a Diploma in Marketing Management
-                        <br>I like to think about everything positively
-                        <br>And likes to be friendly with people</b></p>
-                    <a href="#about"><b>Download Resume</b></a>
+        </div>
+        <a href="#" class="btn">Discover my work</a>
+    </div>
 
-                </div>
-            </section>
-        </section>
+    <!--    img add karanna-->
 
-        <section>
-            <dfn id="services"></dfn>
-            <section>
-                <h1>My Services</h1>
-            </section>
-            <section>
-                <div><img width="50" src="assests/icon2.png" alt=""></div>
-                <div><img width="50" src="assests/icon5.png" alt=""></div>
-                <div><img width="50" src="assests/icon3.png" alt=""></div>
-                <div><img width="50" src="assests/icon4.png" alt=""></div>
-                <div><img width="50" src="assests/icon5.png" alt=""></div>
-                <div><img width="50" src="assests/icon6.png" alt=""></div>
+    <div class="home-img">
+        <img src="" alt="">
+    </div>
+</section>
 
+<!--about section design-->
 
-            </section>
-            <section>
-                <div>
-                    <h3><b>Web Development</b></h3>
-                    <p><b>Web Design are creating CSS , PHP , JavaScript </b></p>
-                </div>
-                <div>
-                    <h3>Copyright</h3>
-                    <p><b>All copyrights are writting HTML</b></p>
-                </div>
-                <div>
-                    <h3>Graphic Designing</h3>
-                    <p><b>All Graphics Design are Creating  Java , HTML , JavaSript</b></p>
-                </div>
-                <div>
-                    <h3><b>Web Designing</b></h3>
-                    <p><b>Web Design are creating CSS , PHP , JavaScript </b></p>
-                </div>
+<section class="about" id="about">
+    <div class="about-img">
 
-                <div>
-                    <h3><b>Software Development</b></h3>
-                    <p><b>Software development creating Java , JavaScript , PHP , SQL </b></p>
-                </div>
+        <img src="Assets/img6.jpg" alt="">
+        <!--    <span class="circle-spin"></span>-->
+    </div>
+    <div class="about-content">
+        <h2 class="heading"> About <span>me</span></h2>
 
-                <div>
-                    <h3><b>Freelancer</b></h3>
-                    <p><b>Are you tried with  your assignment , project ? So give it to me</b></p>
-                </div>
+        <h3>Frontend Developer</h3>
+        <p>I have started corporate training to become a software engineer<br>
+            And I have already completed a Diploma in Marketing Management<br>
+            I like to think about everything positively
+            And likes to be friendly with people</p>
 
-            </section>
-        </section>
+        <a href="#" class="btn"> Read More</a>
+    </div>
+</section>
 
-        <section>
-            <dfn id="skills"></dfn>
-            <section>
-                <h1><b>My Skills</b></h1>
-                <p><b>My specialties include quickly learning new skills and programming languages , problems solving , OOP concepts , <br>layered architecture and Model Veiw Controller (MVC) methodsfor organizing code.
-                    <br>I’m currently able to work with Java , Mysql , HTML , CSS , Java script , JavaFX and Git/Github.</b></p>
-            </section>
-            <section>
-                <div><img width="60" src="assests/java.png" alt="java"></div>
-                <div><img width="60" src="assests/javascript.png" alt="javascript"></div>
-                <div><img width="60" src="assests/photoshop-48.png" alt="photoshop"></div>
-                <div><img width="60" src="assests/html.png" alt="html"></div>
-                <div><img width="60" src="assests/git.png" alt="git"></div>
-                <div><img width="60" src="assests/figma.png" alt="figma"></div>
-                <div><img width="60" src="assests/css.png" alt="css"></div>
-                <div><img width="60" src="assests/php.png" alt="php"></div>
-                <div><img width="60" src="assests/js.png" alt="js"></div>
-                <div><img width="60" src="assests/node.png" alt="node"></div>
+<!--Service design-->
 
-                <a href="#skillst"><b>My Education</b></a>
-            </section>
+<section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
 
-            <section>
-                <dfn id="education"></dfn>
-                <section>
-                    <h1><b>My Education</b></h1>
-                    <div>
-                        <div>
-                            <p><b>Graduate Diploma in Marketing Management</b></p>
-                            <p><b> Open University Of Sri Lanka( OUSL) (2022 - 2023)</b></p>
-                        </div>
-                        <div>
-                            <p><b>Graduate Diploma in Software Engineer</b></p>
-                            <p><b>Institute of Java Software Engineer (2022 - 2024)</b></p>
-                        </div>
-                        <div>
-                            <p><b>G.C.E Advanced Level Examination</b></p>
-                            <p><b>G / Christ Church Girl’s College (2020)</b></p>
-                        </div>
-                        <div>
-                            <p><b>G.C.E Ordinary Level Examination</b></p>
-                            <p><b>G / Christ Church Girl’s College (2017)</b></p>
-                        </div>
-                    </div>
-                </section>
+    <div class="services-container">
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Development</h3>
+            <p>Web Design are creating CSS , PHP , JavaScript </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
 
-            </section>
+        <div class="services-box">
+            <i class="bx bx-bar-chart-alt"></i>
+            <h3>Graphic Design</h3>
+            <p>All Graphics Design are Creating  Java , HTML , JavaSript </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
 
-            <section>
-                <dfn id="project"></dfn>
-                <section><h1>My Project</h1></section>
-                <section>
-                    <h3>Coir Management System</h3>
-                    <div><img width="100"src="assests/images.jpg" alt="coir"></div>
-                </section>
-                <section>
-                    <h3>G & G Mountain Co</h3>
-                    <div><img width="100" src="assests/Untitled design.png" alt="G& G mountain co"></div>
-                </section>
-                <a href="#project"><b>See Assignment</b></a>
-            </section>
+        <div class="services-box">
+            <i class="bx bxs-paint"></i>
+            <h3>Paint</h3>
+            <p>Web Design are creating CSS , PHP , JavaScript </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
 
-            <section>
-                <section><h1>My Assignments</h1></section>
-                <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </section>
-            </section>
+        <div class="services-box">
+            <i class='bx bx-file-find'></i>
+            <h3>Copyright</h3>
+            <p>All copyrights are writing HTML</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
 
-            <section>
-                <dfn id="gallery"></dfn>
-                <section><h1>My Gallery</h1></section>
-                <section>
-                    <div><img width="100" src="assests/mine (1).jpg" alt="image"></div>
-                    <div><img width="100" src="assests/mine (2).jpg" alt="images"></div>
-                    <div><img width="100" src="assests/mine (3).jpg" alt="imag"></div>
-                </section>
-            </section>
+        <div class="services-box">
+            <i class='bx bxl-digitalocean'></i>
+            <h3>Digital Marketing</h3>
+            <p>Web Design are creating CSS , PHP , JavaScript </p>
 
-            <section>
-                <dfn id="contact"></dfn>
-                <section><h1><b>Contact Me</b></h1></section>
-                <section>
+            <a href="#" class="btn">Read More</a>
+        </div>
 
-                    <div>
-                        <div><img width="40" src="assests/call.png" alt="user"></div>
-                        <p><b>Call me</b> <br><b>0768748166 <br>0777036553 </b></p>
-                    </div>
-                    <div>
-                        <div><img width="40" src="assests/location.png" alt="Location"></div>
-                        <p><b>Location</b><br><b> No 283/1 Thelikada Road, Ginimellagaha</b></p>
-                    </div>
-                    <div>
-                        <div><img width="40" src="assests/mail.png" alt="mail"></div>
-                        <p><b>E mail <br>hasinipiyumika617@gmail.com</b></p>
-                    </div>
-                    </address>
-                </section>
-                <section>
-<form action="">
-    <input type="text" placeholder="Enter Full name">
-    <input type="email" placeholder="Enter your email">
-    <br>
-    <br>
-<textarea name="" id="" cols="30" rows="5" placeholder="Your message"></textarea>
-    <br>
-    <br>
-    <button type="message" formaction="">Send Message</button>
+        <div class="services-box">
+            <i class='bx bxs-checkbox-checked'></i>
+            <h3>Freelancer</h3>
+            <p>Are you tried with  your assignment , project ? <br>So give it to me.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
 
-</form>
+<!--Project Design -->
 
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span> Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="Assets/imag.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/img1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/img5.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/img6.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/img1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="Assets/imag.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Education part 2  ------------------------->
+<section class="page-back" id="page-back">
+    <h1 class="heading">My <span> Education </span></h1>
+
+    <div class="workeduc-content">
+        <span class="year"><i class="bx bxs-calendar"></i> 2022-2024</span>
+        <h3> Graduate Diploma in Software Engineer </h3>
+        <p>Institute of Java Software Engineer ( IJSE ) </p>
+    </div>
+
+    <div class="workeduc-content">
+        <span class="year"><i class="bx bxs-calendar"></i> 2022-2023</span>
+        <h3> Graduate Diploma in Marketing Management </h3>
+        <p>Open University Of Sri Lanka( OUSL) </p>
+    </div>
+
+    <div class="workeduc-content">
+        <span class="year"><i class="bx bxs-calendar"></i> 2020</span>
+        <h3> Graduate Diploma in Software Engineer </h3>
+        <p>Institute of Java Software Engineer ( IJSE ) </p>
+    </div>
+
+    <div class="workeduc-content">
+        <span class="year"><i class="bx bxs-calendar"></i> 2017</span>
+        <h3>G. C . E Advanced Level Examination </h3>
+        <p>G / Christ Church Girl’s College </p>
+    </div>
 
 </section>
-            </section>
-        </section>
-    </section>
-</main>
-<footer>
-    <section>
-        <div><img usemap="#linkedin map" width="30" src="assests/linkedin.png" alt="Linkedin"></div>
-        <div><img usemap="#github map" width="30" src="assests/github.png" alt="Github"></div>
-        <map name="link map">
-            <area shape="rect" coords="0,0,50,50" target="_blank" href="https://www.linkedin.com/feed/" alt="Go To Linkedin">
-        </map>
-        <map name="git map">
-            <area shape="rect" coords="0,0,50,50" target="_blank" href="https://github.com/Piyumikahasini/MyPortfolio" alt="Go To Github">
-        </map>
-        <p><small>©Designed & Developed by <b>Hasini Piyumika</b> | 2023 All Rights Reserved</small></p>
-    </section>
-</footer>
 
+<!--Assignment design ---------------------------->
+
+<section class="assignment" id="assignment">
+    <h2 class="heading"> My  <span> Assignment </span></h2>
+
+    <div class="assignment-container">
+        <div class="assignment-box">
+            <img src="Assets/imag.jpg" alt="">
+            <div class="assignment-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="assignment-box">
+            <img src="Assets/img1.jpg" alt="">
+            <div class="assignment-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="assignment-box">
+            <img src="Assets/img5.jpg" alt="">
+            <div class="assignment-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="assignment-box">
+            <img src="Assets/img6.jpg" alt="">
+            <div class="assignment-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="assignment-box">
+            <img src="Assets/img1.jpg" alt="">
+            <div class="assignment-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="assignment-box">
+            <img src="Assets/imag.jpg" alt="">
+            <div class="assignment-layer">
+                <h4> Web Design</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid atque enim la</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Gallery Design ------------------------->
+
+<section class="gallery" id="gallery">
+    <h2 class="heading"> My <span> Gallery </span></h2>
+
+    <div class="wrapper">
+        <div class="main-content">
+            <div class="box">
+                <img src="Assets/img5.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2> Web Development </h2>
+                        <p>Lorem ipsum dolor sit</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="Assets/img5.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2> Web Development </h2>
+                        <p>Lorem ipsum dolor sit</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="Assets/img5.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2> Web Development </h2>
+                        <p>Lorem ipsum dolor sit</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="Assets/img5.jpg" alt="">
+                <div class="img-text">
+                    <div class="content">
+                        <h2> Web Development </h2>
+                        <p>Lorem ipsum dolor sit</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+
+<!--Contact design-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+
+            <input type="text" placeholder="Mobile Number">
+            <input type="text" placeholder="Location">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!--footer design-->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Hasini Piyumika | All Rights Reserved. </p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i> </a>
+    </div>
+</footer>
+</section>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
