@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 2/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 3/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 4/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 3/assets/icons8-delete-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 3/assets/img2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 1/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Transition/index 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Transition/Case 3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,28 +42,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Transition/Case 4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Transition/Case 3/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 4" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 2" />
       <recent name="D:\WorkZone\MyPortfolio\Assets" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 1\assets" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,6 +141,7 @@
       <workItem from="1695088056378" duration="23000" />
       <workItem from="1695099056019" duration="206000" />
       <workItem from="1695099276925" duration="651000" />
+      <workItem from="1695111093900" duration="162000" />
     </task>
     <servers />
   </component>
