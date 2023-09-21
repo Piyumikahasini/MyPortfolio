@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <section></section>
+</main>
+</body>
+
+<style>
+
+    main>section{
+        background: deepskyblue;
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        animation-duration: 5s;
+        animation-name: anima;
+        animation-iteration-count: infinite;
+        animation-direction:alternate;
+    }
+
+
+    @keyframes anima {
+        0%{
+            background: yellow;
+            margin: 0px 0px 0px 0px;
+
+        }
+        25%{
+            background: green;
+            margin: 0px 0px 0px 450px;
+
+        }
+        50%{
+            background: red;
+            margin: 550px 0px 0px 450px;
+            transform: rotate(-360deg);
+
+
+        }
+        75%{
+            background: deeppink;
+            margin: 550px 450px 0px 0px;
+
+        }
+        100%{
+
+        }
+    }
+</style>
+</html>
