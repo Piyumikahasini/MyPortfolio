@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/Case 3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/Case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/Case1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/Case 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/Case 3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +44,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Animation/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Animation\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 4" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 2" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -149,7 +149,7 @@
       <workItem from="1695264183367" duration="1097000" />
       <workItem from="1695265461828" duration="3710000" />
       <workItem from="1695274094346" duration="148000" />
-      <workItem from="1695274273293" duration="3817000" />
+      <workItem from="1695274273293" duration="5566000" />
     </task>
     <servers />
   </component>
