@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/Case 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img3.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/Case1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/Case1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS/Animation/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -146,7 +149,7 @@
       <workItem from="1695264183367" duration="1097000" />
       <workItem from="1695265461828" duration="3710000" />
       <workItem from="1695274094346" duration="148000" />
-      <workItem from="1695274273293" duration="687000" />
+      <workItem from="1695274273293" duration="3817000" />
     </task>
     <servers />
   </component>
