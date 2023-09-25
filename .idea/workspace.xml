@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/animation-case04.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +54,6 @@
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 4" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -154,6 +141,7 @@
       <workItem from="1695389710781" duration="90000" />
       <workItem from="1695577538784" duration="1614000" />
       <workItem from="1695579402937" duration="1468000" />
+      <workItem from="1695612135166" duration="881000" />
     </task>
     <servers />
   </component>

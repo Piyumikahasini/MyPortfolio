@@ -522,6 +522,14 @@ span{
     color: var(--second-bg-color);
 }
 
+.btn-see-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+}
+
 /*Skills form*/
 
 .experience__container{
