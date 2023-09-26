@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="" />
+    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS/Animation/Case 4/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/Case 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/Case1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img3.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/CSS/Animation/assets/img6.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,17 +45,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Portfolio- homework" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Animation\Case 4" />
       <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Animation\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 4" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS\Transition\Case 3" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -137,6 +145,9 @@
       <workItem from="1695577538784" duration="1614000" />
       <workItem from="1695579402937" duration="1468000" />
       <workItem from="1695612135166" duration="1278000" />
+      <workItem from="1695661062926" duration="173000" />
+      <workItem from="1695702240455" duration="388000" />
+      <workItem from="1695728716800" duration="2202000" />
     </task>
     <servers />
   </component>
