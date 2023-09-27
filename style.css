@@ -326,6 +326,23 @@ span{
 .services-container .service-box:hover::after{
     height: 100%;
 }
+
+.services-container .services-box:before{
+    content: '';
+    background: linear-gradient(45deg,#ff0000,#ff7300,#fffb00,#48ff00,#00ffd5,
+    #002bff,#7a00ff,#ff00c8,#ff0000);
+    filter: blur(5px);
+    animation: animate 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease;
+
+}
+
+
+.services-container .service-box:hover:before{
+    opacity: 1;
+
+}
 .services-container .service-box:hover{
     transform: translateY(-2px);
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.15);
@@ -345,6 +362,7 @@ span{
 .services-container .service-box:hover.service-box h3{
     color: #e3e3e8;
 }
+
 
 
 /* Project --------------------------------------*/
@@ -562,7 +580,7 @@ span{
 }
 .experience__content{
     display: grid;
-    row-gap: 3rem;
+    row-gap: 2rem;
 
 }
 .experience__details{
@@ -594,6 +612,7 @@ span{
     margin-top: 1mm;
     color: var(--text-color);
 }
+
 
 /*Gallery Form --------------------------------------------*/
 
