@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/css/Animation.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/css/Animation2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/css/Animation3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/css/Transition 2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/css/Transition 3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/css/Transition 4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/css/Transition.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/angular-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-apache-netbeans-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-css3-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-figma-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-firebase-a-google's-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-flutter-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-html-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-intellij-idea-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-java-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-javascript-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-mysql-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-node-js-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-photoshop-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-postman-api-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-scene-builder-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-vs-code-48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Capture.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Capture.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Capture1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Capture1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Capture2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Capture2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Capture3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/project/Capture3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Css1.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/Css1.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Css2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/Css2.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Css3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/Css3.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Css4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/Css4.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Css5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/Css5.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Css6.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/Css6.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/animation-case04.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/css/animation-case04.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/design1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/gallery/design1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/design2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/gallery/design2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/imag.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mine (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mine/mine (1).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mine (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mine/mine (2).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/mine (3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/mine/mine (3).jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/website1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/gallery/website1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/website2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/gallery/website2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/website3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/gallery/website3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +159,7 @@
       <workItem from="1695739425620" duration="22000" />
       <workItem from="1695739626318" duration="23000" />
       <workItem from="1695781279620" duration="1277000" />
-      <workItem from="1695785874331" duration="14270000" />
+      <workItem from="1695785874331" duration="14603000" />
     </task>
     <servers />
   </component>
