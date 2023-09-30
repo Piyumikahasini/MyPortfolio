@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="" />
+    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/animation.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/no-sleep-smoke.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/assest/item.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/assest/order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/assest/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,34 +48,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/CSS-Framework/POS/assest" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assest" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\css" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\css" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\gallery" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\mine" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\project" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -159,7 +158,15 @@
       <workItem from="1695739425620" duration="22000" />
       <workItem from="1695739626318" duration="23000" />
       <workItem from="1695781279620" duration="1277000" />
-      <workItem from="1695785874331" duration="14603000" />
+      <workItem from="1695785874331" duration="14792000" />
+      <workItem from="1695822096643" duration="1895000" />
+      <workItem from="1695825600391" duration="1552000" />
+      <workItem from="1695869737017" duration="2880000" />
+      <workItem from="1695876783624" duration="109000" />
+      <workItem from="1696001508116" duration="577000" />
+      <workItem from="1696076038159" duration="376000" />
+      <workItem from="1696086386032" duration="2559000" />
+      <workItem from="1696088978749" duration="7064000" />
     </task>
     <servers />
   </component>

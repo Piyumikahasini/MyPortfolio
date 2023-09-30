@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assest/1.png">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <section id="items">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow custom-navbar bg-body-tertiary">
+            <div class="container-fluid" style="background-color: white; height: 50px;">
+                <img src="assest/1.png" alt="Foodcity" class="img-responsive custom-logo"
+                     style="height: 50px; width: 50px; border: 2px solid rgb(226, 226, 226); border-radius: 50%; margin: 10px;">
+
+                <a class="navbar-brand"
+                    style="color: white; font-weight: 600; font-size: 30px; font-family: 'Playfair Display', serif;"
+                    href="#">Foodcity</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                    style="background-color: white; margin: 30px;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin: 20px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customer.html">Customer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="item.html">Item</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="order.html">Order</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button type="button" class="btn btn-outline-light"
+                            style="background-color: red;">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- ====================  ITEM  ============================== -->
+        <section class="Item" id="Item">
+            <div class="card">
+                <div class="card-img-overlay">
+                </div>
+            </div>
+
+            <div class="row justify-content-around" style="height: max-content; padding-top: 40px;">
+                <div class="col-10 col-md-5 col-lg-5 p-0" style="background-color: grey;">
+                    <h4 class="text-center p-2 text-light" style="background-color: red;">Search Item</h4>
+                    <form>
+                        <div class="mb-3 ms-3 me-3">
+                            <input class="form-control" id="itenid" placeholder="Input Item ID" type="text">
+                        </div>
+                        <button class="btn btn-primary ms-3 mb-3 ms-md-3 ms-lg-3" type="submit">Search</button>
+                        <button class="btn btn-danger ms-3 mb-3 ms-md-3 ms-lg-3" type="button">Delete</button>
+                        <button class="btn btn-warning ms-3 mb-3 ms-md-3 ms-lg-3" type="reset">Clear</button>
+
+                        <div class="mb-4 ms-3 me-4">
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Add Item
+                        </button>
+                        </div>
+                    </form>
+                </div>
+    
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="background-color: grey;">
+                                <div class="modal-header" style="background-color: red;">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add New
+                                        Item</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="item" class="form-label">Item ID:</label>
+                                            <input type="text" class="form-control" id="exampleInputID">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="item" class="form-label">Item name:</label>
+                                            <input type="text" class="form-control" id="exampleInputName:">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="item" class="form-label">Item Price:</label>
+                                            <input type="number" class="form-control" id="exampleInputAddress:">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="item" class="form-label">Item Quantity:</label>
+                                            <input type="number" class="form-control" id="exampleInputSalary:">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger">Save</button>
+                                    <button type="button" class="btn btn-warning"
+                                        >Renew</button>
+                                    <button type="button" class="btn btn-info"data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row mt-1 mt-md-2 mt-lg-5 justify-content-around">
+                <div class="col-10">
+    
+                    <div class="customeTableDiv">
+                        <table class="table bg-light table-bordered w-100 h-100 table-hover">
+                            <thead class="text-light text-center"
+                                style="background-color: red; height: fit-content;">
+                                <tr style="color: white;">
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                </tr>
+                            </thead>
+                            <tbody id="customerTable" style="background-color: white;">
+                                <tr>
+                                    <td>I001</td>
+                                    <td>Kiri Samba</td>
+                                    <td>500</td>
+                                    <td>100000</td>
+                                </tr>
+    
+                                <tr>
+                                    <td>I002</td>
+                                    <td>Samba</td>
+                                    <td>550</td>
+                                    <td>150000</td>
+                                </tr>
+    
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </section>
+    </section>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

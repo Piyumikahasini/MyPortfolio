@@ -327,17 +327,6 @@ span{
     height: 100%;
 }
 
-.services-container .services-box:before{
-    content: '';
-    background: linear-gradient(45deg,#ff0000,#ff7300,#fffb00,#48ff00,#00ffd5,
-    #002bff,#7a00ff,#ff00c8,#ff0000);
-    filter: blur(5px);
-    animation: animate 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease;
-
-}
-
 
 .services-container .service-box:hover:before{
     opacity: 1;
@@ -480,6 +469,7 @@ span{
     display: flex;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0,0,0,.1);
+
     overflow: hidden;
 
 }
@@ -549,6 +539,7 @@ span{
 }
 
 /*Skills form*/
+
 
 .experience__container{
     display: grid;
@@ -692,6 +683,7 @@ section.portfolio{
 section.contact{
     width: 100%;
     background-color: var(--bg-color);
+
 }
 .contact .contact-contents{
     width: 100%;
