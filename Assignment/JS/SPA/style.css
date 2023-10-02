@@ -1,0 +1,218 @@
+/* width */
+/*::-webkit-scrollbar {*/
+/*    width: 10px;*/
+/*}*/
+
+/*!* Track *!*/
+/*::-webkit-scrollbar-track {*/
+/*    box-shadow: inset 0 0 5px rgb(43, 43, 43);*/
+/*    border-radius: 10px;*/
+/*}*/
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 15px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+    /* border: 1px solid var(--first-color);  */
+}
+
+
+.carousel-item img {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    height: 100vh;
+
+
+}
+
+section {
+    height: 100vh;
+}
+
+h5 {
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav-link {
+    color: red;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.Customer,
+.Item,
+.Order {
+    padding-top: 80px;
+    padding-left: 30px;
+}
+
+
+.Customer .card-img {
+    width: 150px;
+    height: 60px;
+}
+
+.Customer .card {
+    border-color: white;
+}
+
+.Customer .card-title {
+    padding-left: 10px;
+    color: red;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.Customer .container {
+    padding-top: 100px;
+
+
+}
+
+.Customer .col {
+    height: 240px;
+    width: 200px;
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+.Customer .col img {
+    margin: 30px;
+    height: 100px;
+    width: 120px;
+}
+
+
+/* customer form */
+.Customer .col-10 {
+
+    margin: 5px;
+}
+
+
+.Item .card-img {
+    width: 150px;
+    height: 60px;
+}
+
+.Item .card {
+    border-color: white;
+}
+
+.Item .card-title {
+    padding-left: 25px;
+    color: red;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Item .container {
+    padding-top: 100px;
+
+
+}
+
+.Item .col {
+    height: 240px;
+    width: 200px;
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+.Item .col img {
+    margin: 30px;
+    height: 100px;
+    width: 120px;
+}
+
+
+/* customer form */
+.Item .col-10 {
+
+    margin: 5px;
+}
+
+.Order .card-img {
+    width: 150px;
+    height: 60px;
+}
+
+.Order .card {
+    border-color: white;
+}
+
+.Order .card-title {
+    padding-left: 20px;
+    color: red;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    margin-top: 10px;
+}
+.Order .col{
+    width: 30%;
+    margin: 5px;
+    flex-wrap: nowrap;
+    flex: 1 0 0%;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.275rem 0.75rem;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.mt-lg-5 {
+    margin-top: 1rem!important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.d-grid{
+    margin: 5px;
+}
+
+.col-4{
+    margin-top: 20px;
+}
+
