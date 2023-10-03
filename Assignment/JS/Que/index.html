@@ -87,6 +87,19 @@
     <div></div>
 
 </section>
+<script>
+    let color=["yellow","green","red","blue","deeppink","orange"];
+
+    let divArray= document.querySelector("section").children;
+    setInterval(function(){
+        for (let i=0;i< divArray.length;i++) {
+            divArray[i].style.background = color[i];
+        }
+        let lastElement = color.pop();
+        color.unshift(lastElement);
+    },100);
+
+</script>
 
 </body>
 </html>
