@@ -1,0 +1,92 @@
+<!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+    <style>
+
+        body{
+            background-color: white;
+        }
+        section{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 1000px;
+            height: 200px;
+            display: grid;
+            grid-gap: 5px;
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(8, 1fr);
+        }
+
+        section div{
+            height: calc(200px/3);
+        }
+
+        section> div:nth-child(1) {
+            grid-row: 1;
+        }
+        section > div:nth-child(2) {
+            grid-row: 3;
+            grid-column: 3;
+        }
+        section > div:nth-child(3) {
+            grid-row: 3;
+            grid-column: 4;
+        }
+        section > div:nth-child(4) {
+            grid-row: 3;
+            grid-column: 5;
+        }
+        section > div:nth-child(5) {
+            grid-row: 3;
+            grid-column: 6;
+        }
+
+        section > div:nth-child(6) {
+            grid-row: 5;
+            grid-column: 8;
+        }
+        section > div:nth-child(7) {
+            height: 3px;
+            grid-row: 2;
+            grid-column:1/9;
+            background-color:white;
+
+        }
+        section > div:nth-child(8) {
+            height: 2px;
+            grid-row: 4;
+            grid-column: 1/9;
+            background-color:white;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</section>
+
+</body>
+</html>
