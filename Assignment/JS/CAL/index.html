@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(0, 0, 0);
+            width: 400px;
+            height: 530px;
+            position: relative;
+            top: 40px;
+            border-radius: 10px;
+        }
+
+        #result {
+            position: relative;
+            font-size: 20px;
+            font-weight: 600;
+            top: 30px;
+            left: 12px;
+            width: 350px;
+            height: 60px;
+            border-radius: 10px;
+            background-color: rgb(231, 231, 231);
+        }
+
+        .row {
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            top: 65px;
+            margin-bottom: 20px;
+            margin-left: 3px;
+        }
+
+        .btn{
+            color: rgb(255, 255, 255);
+            font-size: large;
+            font-weight: 600;
+            background-color: rgba(46, 46, 46, 0.753);
+            border-radius: 5px;
+            width: 80px;
+            height: 60px;
+        }
+        .btn:hover{
+            color: rgb(255, 255, 255);
+            background-color: rgba(46, 46, 46, 0.753);
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="result" readonly placeholder="">
+        <div class="row">
+            <div class="btn"  onclick="clearResult()">C</div>
+            <div class="btn"  onclick="appendToResult('()')">()</div>
+            <div class="btn"  onclick="appendToResult('%')">%</div>
+            <div class="btn"  onclick="appendToResult('/')">/</div>
+        </div>
+
+        <div class="row">
+            <div class="btn" onclick="appendToResult('7')">7</div>
+            <div class="btn" onclick="appendToResult('8')">8</div>
+            <div class="btn" onclick="appendToResult('9')">9</div>
+            <div class="btn"  onclick="appendToResult('*')">*</div>
+        </div>
+
+        <div class="row">
+            <div class="btn" onclick="appendToResult('4')">4</div>
+            <div class="btn" onclick="appendToResult('5')">5</div>
+            <div class="btn" onclick="appendToResult('6')">6</div>
+            <div class="btn"  onclick="appendToResult('-')">-</div>
+        </div>
+
+        <div class="row">
+            <div class="btn" onclick="appendToResult('1')">1</div>
+            <div class="btn" onclick="appendToResult('2')">2</div>
+            <div class="btn" onclick="appendToResult('3')">3</div>
+            <div class="btn"  onclick="appendToResult('+')">+</div>
+        </div>
+
+        <div class="row">
+            <div class="btn"  onclick="appendToResult('+/-')">+/-</div>
+            <div class="btn" onclick="appendToResult('0')">0</div>
+            <div class="btn" onclick="appendToResult('.')">.</div>
+            <div class="btn"  onclick="calculate()">=</div>
+        </div>
+    </div>
+    <script>
+        function appendToResult(value){
+            document.getElementById('result').value += value;
+        }
+        function clearResult(){
+            document.getElementById('result').value = '';
+        }
+        function calculate(){
+            var result = eval(document.getElementById('result').value);
+            document.getElementById('result').value = result;
+        }
+
+    </script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
