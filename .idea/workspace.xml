@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/Que/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/Que/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/Que/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,35 +42,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Script" />
+    <property name="last_opened_file_path" value="C:/MyPrtfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\SPA\assest" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assest" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\css" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\css" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\SPA" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\SPA\assets" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\SPA\model" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\SPA\model\tm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -182,7 +170,9 @@
       <workItem from="1696301575160" duration="625000" />
       <workItem from="1696304564959" duration="478000" />
       <workItem from="1696306984035" duration="719000" />
-      <workItem from="1696307828717" duration="2965000" />
+      <workItem from="1696307828717" duration="17144000" />
+      <workItem from="1696407614957" duration="2740000" />
+      <workItem from="1696417565541" duration="485000" />
     </task>
     <servers />
   </component>
