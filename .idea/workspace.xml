@@ -2,8 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/particles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/bootstrap-5.3.2-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/knight_rider_music.mpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/assets/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/KNIGHT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/no-sleep-smoke.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +109,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,16 +143,29 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assest\js" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\CAL" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\KNIGHT\assets" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\KNIGHT\assets\jQuery" />
+      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\KNIGHT\assets\sounds" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\SPA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -180,7 +288,13 @@
       <workItem from="1696442674164" duration="38000" />
       <workItem from="1696492610668" duration="2436000" />
       <workItem from="1696597062923" duration="254000" />
-      <workItem from="1696605310188" duration="1922000" />
+      <workItem from="1696605310188" duration="2258000" />
+      <workItem from="1696611101642" duration="2591000" />
+      <workItem from="1696648636231" duration="1202000" />
+      <workItem from="1696693291368" duration="23000" />
+      <workItem from="1696762525012" duration="1257000" />
+      <workItem from="1696767297677" duration="901000" />
+      <workItem from="1696777112497" duration="413000" />
     </task>
     <servers />
   </component>

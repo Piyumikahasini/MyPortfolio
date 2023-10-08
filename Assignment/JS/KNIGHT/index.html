@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knight Rider Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.css">
+
+    <style>
+        section>section:first-child>div{
+            background-color: white;
+        }
+        button:hover{
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body class="bg-dark">
+<h2 class="text-white fw-medium mt-5 text-center">KNIGHT RIDER</h2>
+<hgroup class="text-center">
+    <h3 class="text-danger d-inline-block">Speed </h3>
+    <h3 id="speed" class="text-primary d-inline-block">50</h3>
+    <h3 class="text-danger d-inline-block">| Waiting Time </h3>
+    <h3 id="waitingTime" class="text-primary d-inline-block">2000</h3>
+</hgroup>
+<section class="container-fluid border-info position-absolute top-0 bottom-0 m-auto " style="height: max-content">
+    <section class="row w-75 m-auto " style="height: 4vw">
+        <div class="col border border-black d-inline-block "></div>
+        <div class="col border border-black d-inline-block "></div>
+        <div class="col border border-black d-inline-block "></div>
+        <div class="col border border-black d-inline-block "></div>
+        <div class="col border border-black d-inline-block "></div>
+        <div class="col border border-black d-inline-block "></div>
+    </section>
+    <section class="row w-75 m-auto justify-content-center my-4" style="height: 4vw">
+        <div class="col-7 col-sm-5 col-lg-1 px-1 mx-2 py-2 d-flex align-items-center">
+            <button id="btnStart" class="btn bg-primary w-100 rounded-3 text-white border-0 text-center" style="height: 90%" >Start</button>
+        </div>
+        <div class="col-7 col-sm-5 col-lg-1 px-1 mx-2 py-2 d-flex align-items-center">
+            <button id="btnStop" class="btn bg-danger w-100 rounded-3 text-white border-0 text-center" style="height: 90%" >Stop</button>
+        </div>
+        <div class="col-7 col-lg-4 py-2 ">
+            <input type="range" class="form-range bg-white px-4 rounded-3" id="range"  min="30" max="70" value="50" step="1" style="height: 100%">
+        </div>
+    </section>
+</section>
+
+<audio id="audio" src="assets/knight_rider_music.mpeg" type="audio/mpeg" loop ></audio>
+<script>
+    let changingColors = [];
+    let storedColors = ["#FE0000", "#fd3e39", "#fa7e7b", "#fca09e", "#FE938D", "#ffb7b3"]
+    let divs = document.querySelectorAll("section>section:first-child>div");
+    let range= document.getElementById("range");
+    let lblSpeed = document.getElementById("speed");
+    let lblWaitingTime = document.getElementById("waitingTime");
+
+    let waiting_point_count = 0;
+    let count=0;
+    let c2=0;
+    let timerInterval;
+    let timerTimeout;
+    let speed=50;
+    let delay=2000;
+    function startInterval(){
+        timerInterval = setInterval(function () {
+
+            if(count==24){
+                count=0;
+                c2=0;
+                changingColors=[];
+                waiting_point_count++;
+                console.log(waiting_point_count);
+                if(waiting_point_count==2){
+                    waiting_point_count=0;
+                    clearInterval(timerInterval);
+                    timerTimeout= setTimeout(function (){
+                        startInterval();
+                    },delay);
+                }
+            }else if(count>=18){
+                changingColors.shift();
+                changingColors.push("white");
+                count++;
+            }else if(count>=12){
+                changingColors.shift();
+                changingColors.push(storedColors[c2++]);
+                count++;
+            }else if(count>=6){
+                changingColors.pop();
+                changingColors.unshift("white");
+                count++;
+            }else{
+                changingColors.unshift(storedColors[count++]);
+            }
+
+            // console.log(count);
+            // console.log(count,changingColors);
+            for (let i = 0; i < changingColors.length; i++) {
+                divs[i].style.background = changingColors[i];
+            }
+        }, speed);
+    }
+
+    let btnStart= document.getElementById("btnStart");
+    let btnStop= document.getElementById("btnStop");
+    let audio= document.getElementById("audio");
+
+    btnStart.addEventListener("click",function (){
+        clearTimeout(timerTimeout);
+        clearInterval(timerInterval);
+        startInterval();
+        audio.play();
+    });
+
+    btnStop.addEventListener("click",function (){
+        clearTimeout(timerTimeout);
+        clearInterval(timerInterval);
+        audio.pause();
+    });
+
+    range.addEventListener("input", function() {
+        // Get the current value of the range input
+        let rangeValue = range.value;
+
+        speed=rangeValue;
+        delay=rangeValue*35;
+        lblSpeed.innerText=speed;
+        lblWaitingTime.innerText=delay;
+        console.log(delay);
+
+
+    });
+
+</script>
+<script src="assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+
+</body>
+
+</html>
