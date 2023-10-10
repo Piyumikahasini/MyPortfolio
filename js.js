@@ -1,13 +1,13 @@
-let canvas, ctx, w, h, particles = [];
+let canvas, ctx, w, h, dots;
 let mouse = {
     x: undefined,
     y: undefined
 }
-let hue = 0;
 
 function init() {
     canvas = document.querySelector("#canvas");
     ctx = canvas.getContext("2d");
+
     resizeReset();
     animationLoop();
 }
@@ -15,6 +15,11 @@ function init() {
 function resizeReset() {
     w = canvas.width = window.innerWidth;
     h = canvas.height = window.innerHeight;
+
+    dots = [];
+    for (let i = 0; i < 2000; i++) {
+        dots.push(new Dot());
+    }
 }
 
 function mousemove(e) {
@@ -28,87 +33,82 @@ function mouseout() {
 }
 
 function animationLoop() {
-    if (mouse.x != undefined && mouse.y != undefined) {
-        hue += 2;
-        particles.push(new Particle(mouse.x, mouse.y));
-    }
-
     ctx.clearRect(0, 0, w, h);
     ctx.globalCompositeOperation = 'lighter';
-
     drawScene();
-    arrayCleanup();
     requestAnimationFrame(animationLoop);
 }
 
-function arrayCleanup() {
-    let dump = [];
-    particles.map((particle) => {
-        if (particle.radius > 0) {
-            dump.push(particle);
-        }
-    });
-    particles = dump;
-}
-
 function drawScene() {
-    particles.map((particle) => {
-        particle.update();
-        particle.draw();
-    })
+    for (let i = 0; i < dots.length; i++) {
+        dots[i].update();
+        dots[i].draw();
+    }
 }
 
-class Particle {
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
-        this.radius = 5;
-        this.size = 0;
-        this.rotate = 0;
-        this.hue = hue % 360;
-        this.alpha = 0.5;
+function getRandomInt(min, max) {
+    return Math.round(Math.random() * (max - min)) + min;
+}
+
+function easeOutQuad(x) {
+    return 1 - (1 - x) * (1 - x);
+}
+function easeOutElastic(x) {
+    const c4 = (2 * Math.PI) / 3;
+
+    return x === 0
+        ? 0
+        : x === 1
+            ? 1
+            : Math.pow(2, -10 * x) * Math.sin((x * 10 - 0.75) * c4) + 1;
+}
+
+class Dot {
+    constructor() {
+        this.reset();
+        this.constructed = true;
     }
-    setPoint() {
-        let r, x, y;
-        this.point = [];
-        for (let a = 0; a < 360; a += 36) {
-            let d = ((a / 36) % 2 === 0) ? this.size : this.size / 2;
-            r = (Math.PI / 180) * (a + this.rotate);
-            x = this.x + d * Math.sin(r);
-            y = this.y + d * Math.cos(r);
-            this.point.push({x: x, y: y, r: this.radius});
+    reset() {
+        this.x = getRandomInt(0, w);
+        this.y = getRandomInt(h * 1, h * 1.3);
+        this.baseX = this.x;
+        this.baseY = this.y;
+
+        if (mouse.x) {
+            this.centerX = mouse.x;
+        } else {
+            this.centerX = getRandomInt(0, w);
         }
+
+        this.size = getRandomInt(2, 4);
+
+        if (this.constructed) {
+            this.rgba = [182, 112, 16, 1];
+        } else {
+            this.rgba = [0, 0, 0, 0];
+        }
+
+        this.time = 0;
+        this.ttl = getRandomInt(100, 300);
     }
     draw() {
-        if (this.radius <= 0) return;
-        // draw points
-        this.point.map((p) => {
-            ctx.beginPath();
-            ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-            ctx.fillStyle = `hsla(${this.hue}, 100%, 50%, ${this.alpha})`;
-            ctx.fill();
-            ctx.closePath();
-        });
-
-        // draw lines
         ctx.beginPath();
-        for (let i = 0; i < this.point.length; i++) {
-            if (i === 0) {
-                ctx.moveTo(this.point[i].x, this.point[i].y);
-            } else {
-                ctx.lineTo(this.point[i].x, this.point[i].y);
-            }
-        }
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(${this.rgba[0]} ,${this.rgba[1]} ,${this.rgba[2]} ,${this.rgba[3]})`;
+        ctx.fill();
         ctx.closePath();
-        ctx.strokeStyle = `hsla(${this.hue}, 100%, 50%, ${this.alpha})`;
-        ctx.stroke();
     }
     update() {
-        this.setPoint();
-        this.radius -= .05;
-        this.size += .5;
-        this.rotate -= 1;
-        this.alpha = (this.radius * 0.5 < 0.5) ? this.radius * 0.5 : 0.5;
+        if (this.time <= this.ttl) {
+            let progress = 1 - (this.ttl - this.time) / this.ttl;
+
+            this.x = this.baseX + ((this.centerX - this.baseX) * easeOutElastic(progress));
+            this.y = this.baseY - (this.baseY * easeOutQuad(progress));
+
+            this.time++;
+        } else {
+            this.reset();
+        }
     }
 }
 
