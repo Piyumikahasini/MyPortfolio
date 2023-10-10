@@ -40,8 +40,6 @@ body{
     color: var(--text-color);
 }
 
-
-
 section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -574,68 +572,153 @@ span{
 /*Skills form*/
 
 
-.experience__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-
-}
-
-.experience__container > div{
-    background: var(--second-bg-color);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--bg-color);
-
-}
-
-.experience__container >div:hover{
-    background: transparent;
-    border-color: var(--main-color);
-    cursor: default;
-
-}
-.experience__container >div h3{
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--text-color);
-
-}
-.experience__content{
-    display: grid;
-    row-gap: 2rem;
-
-}
-.experience__details{
+.skillsTools .box-container {
     display: flex;
-    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
 
+.skillsTools .box-container .box {
+    position: relative;
 }
-.experience__details-icon{
-    margin-top:6px ;
-    color: var(--text-color);
 
+.skillsTools .box-container .box span {
+    font-size: 1.5rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
 }
-.experience__container h3{
-    font-size: 3rem;
-    font-weight: bold;
+
+.skillsTools .box-container .box h3 {
+    font-size: 1.1rem;
+    color: #fff;
+    padding-top: 1.5rem;
+    font-weight: 100;
 }
-.experience__details h4{
+
+.skillsTools .box-container .box h3:hover {
+    transform: scale(1.1);
+}
+
+.skillsTools .box-container .box i {
+    position: absolute;
+    top: -0.5rem;
+    left: -1.7rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    line-height: 3rem;
+    text-align: center;
     font-size: 2rem;
-    font-weight: bold;
+    color: black;
+    background: #fff724;
 }
 
-.experience__details-icon{
-    margin-top: 6px;
-    color: var(--main-color);
+.skillsTools .box-container .box {
+    margin: 2rem 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-left: 0.2rem solid #fff;
+    position: relative;
+    border-style: dotted;
 
 }
 
-.experience__details .services-box i {
-    margin-top: 1mm;
-    color: var(--text-color);
+.skillsTools .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.skillsTools .img-container .logo {
+    border-radius: 1rem;
+    margin: 1.5rem;
+    overflow: hidden;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
+
+.skillsTools .img-container .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.skillsTools .img-container .logo:hover img {
+    transform: scale(1.2);
+}
+
+
+
+
+/*.experience__container{*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    gap: 3rem;*/
+
+/*}*/
+
+/*.experience__container > div{*/
+/*    background: var(--second-bg-color);*/
+/*    padding: 2.4rem 5rem;*/
+/*    border-radius: 2rem;*/
+/*    border: 1px solid transparent;*/
+/*    transition: var(--bg-color);*/
+
+/*}*/
+
+/*.experience__container >div:hover{*/
+/*    background: transparent;*/
+/*    border-color: var(--main-color);*/
+/*    cursor: default;*/
+
+/*}*/
+/*.experience__container >div h3{*/
+/*    text-align: center;*/
+/*    margin-bottom: 2rem;*/
+/*    color: var(--text-color);*/
+
+/*}*/
+/*.experience__content{*/
+/*    display: grid;*/
+/*    row-gap: 2rem;*/
+
+/*}*/
+/*.experience__details{*/
+/*    display: flex;*/
+/*    gap: 3rem;*/
+
+/*}*/
+/*.experience__details-icon{*/
+/*    margin-top:6px ;*/
+/*    color: var(--text-color);*/
+
+/*}*/
+/*.experience__container h3{*/
+/*    font-size: 3rem;*/
+/*    font-weight: bold;*/
+/*}*/
+/*.experience__details h4{*/
+/*    font-size: 2rem;*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.experience__details-icon{*/
+/*    margin-top: 6px;*/
+/*    color: var(--main-color);*/
+
+/*}*/
+
+/*.experience__details .services-box i {*/
+/*    margin-top: 1mm;*/
+/*    color: var(--text-color);*/
+/*}*/
 
 
 /*Gallery Form --------------------------------------------*/

@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Knight.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icon/icons8-git-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/coding.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/cv-downloard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/git-hubIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/mobileApp128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/source-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/ui-ux-design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/web-development.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/snow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +56,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/icon" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\KNIGHT\assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\KNIGHT\assets\jQuery" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\KNIGHT\assets\sounds" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
@@ -188,7 +202,10 @@
       <workItem from="1696767297677" duration="901000" />
       <workItem from="1696777112497" duration="625000" />
       <workItem from="1696822047237" duration="4049000" />
-      <workItem from="1696909631678" duration="694000" />
+      <workItem from="1696909631678" duration="803000" />
+      <workItem from="1696910923447" duration="2062000" />
+      <workItem from="1696931079324" duration="3018000" />
+      <workItem from="1696934981078" duration="2371000" />
     </task>
     <servers />
   </component>
