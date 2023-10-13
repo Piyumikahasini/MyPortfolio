@@ -29,6 +29,35 @@
     --ash-color:#d6d6d6;
     --background-color:#f3f4f6;
 }
+
+#loader {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid white;
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+/*===============================================================*/
+#loader > div {
+    width: 300px;
+    height: 300px;
+    background: url("Assets/gallery/design1.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
 html{
     font-size: 62%;
     overflow-x:hidden;
