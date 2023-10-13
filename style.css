@@ -644,7 +644,7 @@ span{
     text-align: center;
     font-size: 2rem;
     color: black;
-    background: #fff724;
+background: yellow
 }
 
 .skillsTools .box-container .box {
@@ -682,72 +682,6 @@ span{
 .skillsTools .img-container .logo:hover img {
     transform: scale(1.2);
 }
-
-
-
-
-/*.experience__container{*/
-/*    display: grid;*/
-/*    grid-template-columns: 1fr 1fr;*/
-/*    gap: 3rem;*/
-
-/*}*/
-
-/*.experience__container > div{*/
-/*    background: var(--second-bg-color);*/
-/*    padding: 2.4rem 5rem;*/
-/*    border-radius: 2rem;*/
-/*    border: 1px solid transparent;*/
-/*    transition: var(--bg-color);*/
-
-/*}*/
-
-/*.experience__container >div:hover{*/
-/*    background: transparent;*/
-/*    border-color: var(--main-color);*/
-/*    cursor: default;*/
-
-/*}*/
-/*.experience__container >div h3{*/
-/*    text-align: center;*/
-/*    margin-bottom: 2rem;*/
-/*    color: var(--text-color);*/
-
-/*}*/
-/*.experience__content{*/
-/*    display: grid;*/
-/*    row-gap: 2rem;*/
-
-/*}*/
-/*.experience__details{*/
-/*    display: flex;*/
-/*    gap: 3rem;*/
-
-/*}*/
-/*.experience__details-icon{*/
-/*    margin-top:6px ;*/
-/*    color: var(--text-color);*/
-
-/*}*/
-/*.experience__container h3{*/
-/*    font-size: 3rem;*/
-/*    font-weight: bold;*/
-/*}*/
-/*.experience__details h4{*/
-/*    font-size: 2rem;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.experience__details-icon{*/
-/*    margin-top: 6px;*/
-/*    color: var(--main-color);*/
-
-/*}*/
-
-/*.experience__details .services-box i {*/
-/*    margin-top: 1mm;*/
-/*    color: var(--text-color);*/
-/*}*/
 
 
 /*Gallery Form --------------------------------------------*/
