@@ -2,87 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/icons/icons8-git-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icons/icons8-python-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/icons/icons8-react-js-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/js/code.jquery.com_jquery-3.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/InMemoryPOS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/bootsrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/iQuery/jquery-3.7.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/images/item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/images/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/CustomerController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/HomeController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/ItemController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/OrderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/CustomerValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/ItemValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/OrderValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/db/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/model/CustomerDTO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/model/ItemDTO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/model/OrderDTO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/model/OrderDetailsDTO.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/model/tm/cartTM.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/POS System.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/particles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/CustomerValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/CustomerValidation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment-page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,14 +46,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/icons" />
+    <property name="last_opened_file_path" value="C:/MyPrtfolio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkZone\MyPortfolio\Assets\icons" />
       <recent name="D:\WorkZone\MyPortfolio\Assets" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\icons" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\InMemoryPOS\assects\images" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\js" />
@@ -291,7 +213,7 @@
       <workItem from="1697045248183" duration="143000" />
       <workItem from="1697079143698" duration="1437000" />
       <workItem from="1697166712115" duration="1943000" />
-      <workItem from="1697195525713" duration="3874000" />
+      <workItem from="1697195525713" duration="5192000" />
     </task>
     <servers />
   </component>

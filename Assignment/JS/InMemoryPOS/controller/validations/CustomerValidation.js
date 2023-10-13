@@ -1,18 +1,18 @@
 // validation for customers
 const CUS_ID_REGEX = /^(C00-)[0-9]{4}$/;
 const CUS_NAME_REGEX = /^[A-Za-z ]{5,}$/;
-// const CUS_ADDRESS_REGEX = /^[A-Za-z0-9 ]{8,}$/;
+const CUS_ADDRESS_REGEX = /^[A-Za-z0-9 ]{8,}$/;
 const CUS_SALARY_REGEX = /^[0-9]{2,}([.][0-9]{2})?$/;
 
 //add validations and text fields to the
 let c_vArray = new Array();
 c_vArray.push({field: $("#cusID"), regEx: CUS_ID_REGEX});
 c_vArray.push({field: $("#cusName"), regEx: CUS_NAME_REGEX});
-// c_vArray.push({field: $("#cusAddress"), regEx: CUS_ADDRESS_REGEX});
+c_vArray.push({field: $("#cusAddress"), regEx: CUS_ADDRESS_REGEX});
 c_vArray.push({field: $("#cusSalary"), regEx: CUS_SALARY_REGEX});
 
 function clearCustomerInputFields() {
-    $("#cusID,#cusName,#cusSalary").val("");
+    $("#cusID,#cusName,#cusAddress,#cusSalary").val("");
     $("#cusID,#cusName,#cusSalary").css("border", "1px solid #ced4da");
     $("#cusID").focus();
     setBtn();
@@ -21,8 +21,8 @@ function clearCustomerInputFields() {
 setBtn();
 
 //disable tab
-$("#cusID,#cusName,#cusSalary").on("keydown keyup", function (e) {
- 
+$("#cusID,#cusName,#cusAddress,#cusSalary").on("keydown keyup", function (e) {
+
     let indexNo = c_vArray.indexOf(c_vArray.find((c) => c.field.attr("id") == e.target.id));
 
     //Disable tab key
