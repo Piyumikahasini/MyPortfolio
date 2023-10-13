@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/icons/icons8-git-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/icons8-python-48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/icons/icons8-react-js-48.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/js/code.jquery.com_jquery-3.7.1.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/.idea/InMemoryPOS.iml" afterDir="false" />
@@ -121,17 +124,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/assects/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets/icons" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio\Assets\icons" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\InMemoryPOS\assects\images" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\js" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
@@ -288,7 +291,7 @@
       <workItem from="1697045248183" duration="143000" />
       <workItem from="1697079143698" duration="1437000" />
       <workItem from="1697166712115" duration="1943000" />
-      <workItem from="1697195525713" duration="3576000" />
+      <workItem from="1697195525713" duration="3874000" />
     </task>
     <servers />
   </component>
