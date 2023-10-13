@@ -600,6 +600,10 @@ span{
 
 /*Skills form*/
 
+.skillsTools h2{
+    margin-bottom: 5rem;
+
+}
 
 .skillsTools .box-container {
     display: flex;

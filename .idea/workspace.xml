@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/CustomerValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/controller/validations/CustomerValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment-page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment-page2.html" afterDir="false" />
-    </list>
+    <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/MyPrtfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -213,7 +209,7 @@
       <workItem from="1697045248183" duration="143000" />
       <workItem from="1697079143698" duration="1437000" />
       <workItem from="1697166712115" duration="1943000" />
-      <workItem from="1697195525713" duration="5192000" />
+      <workItem from="1697195525713" duration="5504000" />
     </task>
     <servers />
   </component>
