@@ -43,20 +43,20 @@
     z-index: 100;
 }
 /*===============================================================*/
-/*#loader > div {*/
-/*    width: 300px;*/
-/*    height: 300px;*/
-/*    background: url("Assets/Minimalist Black Animated Loading Screen Video.gif");*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    bottom: 0;*/
-/*    margin: auto;*/
+#loader > div {
+    width: 500px;
+    height: 500px;
+    background: url("Assets/load.gif");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
 
-/*}*/
+}
 
 html{
     font-size: 62%;
