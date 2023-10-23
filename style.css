@@ -69,6 +69,8 @@ body{
     color: var(--text-color);
 }
 
+
+
 section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
@@ -216,8 +218,9 @@ span{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 4rem;
-
+    /*padding-top: 4rem;*/
+    padding-left:4rem;
+padding-bottom:4rem;
 }
 
 .container .hero-pic{
@@ -233,7 +236,6 @@ span{
 .hero-pic img{
     height: 100%;
     width: 100%;
-
     transition: .5s;
 
 }
