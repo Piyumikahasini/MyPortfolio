@@ -1,0 +1,12 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CheckDtdRefs" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="XmlDuplicatedId" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="XmlHighlighting" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="XmlInvalidId" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="XmlPathReference" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="XmlWrongRootElement" enabled="true" level="TYPO" enabled_by_default="true" />
+  </profile>
+</component>

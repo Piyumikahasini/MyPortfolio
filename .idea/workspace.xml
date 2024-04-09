@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/.idea/POS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/Que/.idea/Que.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/.idea/SPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -62,6 +69,19 @@
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -214,7 +234,26 @@
       <workItem from="1697948265901" duration="2977000" />
       <workItem from="1697957248665" duration="858000" />
       <workItem from="1698057174736" duration="1627000" />
-      <workItem from="1698061753202" duration="358000" />
+      <workItem from="1698061753202" duration="1164000" />
+      <workItem from="1698484219807" duration="1564000" />
+      <workItem from="1698539139207" duration="904000" />
+      <workItem from="1698550688499" duration="2195000" />
+      <workItem from="1698849253339" duration="26000" />
+      <workItem from="1698996119925" duration="46000" />
+      <workItem from="1698996813068" duration="17000" />
+      <workItem from="1698998262299" duration="575000" />
+      <workItem from="1700912129570" duration="626000" />
+      <workItem from="1701069434546" duration="47000" />
+      <workItem from="1701150160661" duration="351000" />
+      <workItem from="1701332866771" duration="57000" />
+      <workItem from="1701340140639" duration="2702000" />
+      <workItem from="1703406984041" duration="512000" />
+      <workItem from="1703645864761" duration="200000" />
+      <workItem from="1704430458915" duration="561000" />
+      <workItem from="1704431688966" duration="123000" />
+      <workItem from="1707028591642" duration="1961000" />
+      <workItem from="1712295928964" duration="1204000" />
+      <workItem from="1712652093723" duration="6392000" />
     </task>
     <servers />
   </component>
