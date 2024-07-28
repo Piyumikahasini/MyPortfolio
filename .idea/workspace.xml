@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/CSS-Framework/POS/.idea/POS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/Que/.idea/Que.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/JS/SPA/.idea/SPA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/home.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/InMemoryPOS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/JS/SPA/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2TEOs7tVNmqfO92Bj7AXYod5oVF" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,17 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkZone/MyPortfolio/Assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkZone\MyPortfolio\Assets" />
@@ -70,18 +72,13 @@
       <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -253,7 +250,30 @@
       <workItem from="1704431688966" duration="123000" />
       <workItem from="1707028591642" duration="1961000" />
       <workItem from="1712295928964" duration="1204000" />
-      <workItem from="1712652093723" duration="6392000" />
+      <workItem from="1712652093723" duration="8350000" />
+      <workItem from="1712661563764" duration="111000" />
+      <workItem from="1712719205654" duration="24000" />
+      <workItem from="1712719425637" duration="3927000" />
+      <workItem from="1712743623990" duration="463000" />
+      <workItem from="1713696963049" duration="321000" />
+      <workItem from="1713846361283" duration="152000" />
+      <workItem from="1713955518338" duration="41000" />
+      <workItem from="1714039923673" duration="174000" />
+      <workItem from="1714041758527" duration="225000" />
+      <workItem from="1714285817701" duration="3455000" />
+      <workItem from="1714301518487" duration="732000" />
+      <workItem from="1714307229331" duration="160000" />
+      <workItem from="1714307518077" duration="75000" />
+      <workItem from="1715174198027" duration="247000" />
+      <workItem from="1715341179245" duration="2699000" />
+      <workItem from="1715665284697" duration="4881000" />
+      <workItem from="1716723883455" duration="2637000" />
+      <workItem from="1716815310223" duration="25000" />
+      <workItem from="1717673798107" duration="5100000" />
+      <workItem from="1717816161535" duration="14000" />
+      <workItem from="1717818439044" duration="56000" />
+      <workItem from="1719484829504" duration="1133000" />
+      <workItem from="1722141321979" duration="1260000" />
     </task>
     <servers />
   </component>
