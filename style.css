@@ -120,7 +120,7 @@ section{
 }
 .home{
     background: url("Assets/home.gif");
-    /*background-size:cover;*/
+    background-size:cover;
 
     display: flex;
     justify-content: center;
