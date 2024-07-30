@@ -5,16 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Capture.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/CyberSecurity.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/DataAnalist.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Markerting.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Ui.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Uom.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certificates-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/cybersecurity/cyber4.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/cybersecurity/cyber5.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/cybersecurity/cyber7.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/cybersecurity/cyber8.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/cybersecurity/cyber9.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/certificate/Capture.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/certificate/meta/Capture.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/certificate/CyberSecurity.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/certificate/cybersecurity/CyberSecurity.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/certificate/DataAnalist.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/certificate/Data Analyst/DataAnalist.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/certificate/Markerting.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/Markerting.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/certificate/Ui.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/certificate/ui ux/Ui.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/certificate/Uom.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/certificate/uom/Uom.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/certificates-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,29 +56,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WorkZone/MyPortfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkZone/MyPortfolio/Assets/certificate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkZone\MyPortfolio" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\certificate" />
+      <recent name="D:\WorkZone\MyPortfolio" />
       <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\icons" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\InMemoryPOS\assects\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\icon" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\certificate\meta" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\certificate\uom" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\certificate\ui ux" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\certificate\E-marketing" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\certificate\Data Analyst" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -283,7 +290,7 @@
       <workItem from="1722234277122" duration="3839000" />
       <workItem from="1722253486377" duration="2074000" />
       <workItem from="1722319716136" duration="3806000" />
-      <workItem from="1722331978303" duration="1096000" />
+      <workItem from="1722331978303" duration="2667000" />
     </task>
     <servers />
   </component>
