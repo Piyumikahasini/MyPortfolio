@@ -793,7 +793,7 @@ background: var(--ash-color);
 }
 
 
-/*Gallery Form --------------------------------------------*/
+/* Certificate Form --------------------------------------------*/
 
 .portfolio h2{
     margin-bottom: 5rem;
@@ -858,7 +858,13 @@ background: var(--ash-color);
     text-align: right;
     margin-top: 40px;
 }
-
+.btn-see-more2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+}
 
 
 
@@ -988,13 +994,12 @@ background: var(--ash-color);
 }
 .contact-col-2 .contact-social-media a:hover{
     transform: translateY(-5px);
-    background-color: var(--bg-color-light);
+    background-color: var(--bg-color);
     border: 1px solid var(--main-color);
 }
 .contact-col-2 .contact-social-media a:hover i{
     color: var(--main-color);
 }
-
 
 /*footer design ----------------------------------------- */
 
@@ -1002,7 +1007,7 @@ section.page-footer{
     width: 100%;
     padding: 70px 8% 50px;
     background-color: var(--bg-color);
-    color: var(--bg-color-light);
+    color: var(--second-bg-color);
 }
 .page-footer .footer-contents{
     width: 100%;
@@ -1045,7 +1050,7 @@ section.page-footer{
 }
 .footer-col-1 .footer-social-media a{
     text-decoration: none;
-    color: var(--ash-color);
+    color: var(--second-bg-color);
     margin-right: 10px;
 }
 .footer-col-1 .footer-social-media a i{
@@ -1093,11 +1098,11 @@ section.page-footer{
 .copy-rights{
     width: 100%;
     padding: 30px 8%;
-    background-color: var(--ash-color);
+    background-color: var(--second-bg-color);
     border-top: 1px solid #333;
 }
 .copy-rights p{
-    color: var(--bg-color);
+    color: var(--bg-color-light);
     text-align: center;
 }
 .copy-rights p b{

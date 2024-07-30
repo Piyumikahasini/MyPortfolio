@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/CyberSecurity.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/DataAnalist.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/Markerting.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/Ui.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/certificate/Uom.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certificates-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -49,7 +55,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/RK/Desktop/MyPortfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkZone/MyPortfolio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,11 +66,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkZone\MyPortfolio" />
+      <recent name="D:\WorkZone\MyPortfolio\Assets\certificate" />
       <recent name="D:\WorkZone\MyPortfolio\Assets" />
       <recent name="D:\WorkZone\MyPortfolio\Assets\icons" />
       <recent name="D:\WorkZone\MyPortfolio\Assignment\JS\InMemoryPOS\assects\images" />
-      <recent name="D:\WorkZone\MyPortfolio\Assignment\JS" />
-      <recent name="D:\WorkZone\MyPortfolio\Assets\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\WorkZone\MyPortfolio\Assignment\CSS-Framework\POS\assets\css" />
@@ -274,7 +280,10 @@
       <workItem from="1719484829504" duration="1133000" />
       <workItem from="1722141321979" duration="4549000" />
       <workItem from="1722164891772" duration="1317000" />
-      <workItem from="1722234277122" duration="3458000" />
+      <workItem from="1722234277122" duration="3839000" />
+      <workItem from="1722253486377" duration="2074000" />
+      <workItem from="1722319716136" duration="3806000" />
+      <workItem from="1722331978303" duration="1096000" />
     </task>
     <servers />
   </component>
