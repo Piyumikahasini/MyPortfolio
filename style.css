@@ -428,7 +428,7 @@ span{
     align-items: flex-start;
     flex-basis: 32%;
     padding: 40px 40px 30px;
-    background-color: var(--links-color);
+    background-color: var(--second-bg-color);
     border: 1px solid var(--text-color);
     border-radius: 5px;
     margin-bottom: 20px;
@@ -439,7 +439,7 @@ span{
 }
 .service-box .icon-wrapper{
     position: relative;
-    background-color: var(--second-bg-color);
+    background-color: var(--black-color);
     font-size: 30px;
     width: 55px;
     height: 55px;
@@ -491,7 +491,7 @@ span{
 }
 .services-container .service-box:hover{
     transform: translateY(-2px);
-    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 12px 0px rgba(78,14,4,0.15);
 }
 .services-container .service-box:hover.service-box .icon-wrapper{
     background-color: var(--main-color);
@@ -500,7 +500,7 @@ span{
     color: var(--links-color);
 }
 .services-container .service-box:hover.service-box h2{
-    color: var(--links-color);
+    color: #aaa;
 }
 .services-container .service-box:hover.service-box p{
     color: #aaa;
