@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkZone/MyPortfolio",
+    "last_opened_file_path": "D:/second-sem/travel site",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -283,7 +282,8 @@
       <workItem from="1722349967785" duration="75000" />
       <workItem from="1722696494945" duration="662000" />
       <workItem from="1722759025221" duration="74000" />
-      <workItem from="1722923655483" duration="554000" />
+      <workItem from="1722923655483" duration="1678000" />
+      <workItem from="1722925805593" duration="318000" />
     </task>
     <servers />
   </component>

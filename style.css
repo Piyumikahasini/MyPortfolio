@@ -596,6 +596,13 @@ span{
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+.btn-see-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+}
 
 
 /*My Assignment ----------------------*/
