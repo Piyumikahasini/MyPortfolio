@@ -1132,11 +1132,11 @@ section.page-footer{
         flex-basis: 100%;
     }
 
-    .portfolio-container {
+    .project-container .project-box {
         grid-template-columns: repeat(1,1fr);
     }
 
-    .portfolio-layer h4 {
+    .project-layer h4 .project-box {
         font-size: 1.7rem;
     }
 
@@ -1188,11 +1188,11 @@ section.page-footer{
         flex-basis: 100%;
     }
 
-    .portfolio-container {
+    .project-container {
         grid-template-columns: repeat(1,1fr);
     }
 
-    .portfolio-layer h4 {
+    .project-layer h4 {
         font-size: 1.7rem;
     }
 
@@ -1247,11 +1247,11 @@ section.page-footer{
         flex-basis: 100%;
     }
 
-    .portfolio-container {
+    .project-container {
         grid-template-columns: repeat(1,1fr);
     }
 
-    .portfolio-layer h4 {
+    .project-layer h4 {
         font-size: 1.7rem;
     }
 
@@ -1298,11 +1298,11 @@ section.page-footer{
         flex-basis: 100%;
     }
 
-    .portfolio-container {
+    .project-container {
         grid-template-columns: repeat(2,1fr);
     }
 
-    .portfolio-layer h4 {
+    .project-layer h4 {
         font-size: 1.7rem;
     }
 

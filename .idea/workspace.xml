@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61931d9a-8428-4c2e-9066-48939bd413d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Data Analyst/data1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Data Analyst/data2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Data Analyst/data3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Data Analyst/data4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/Data Analyst/data5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark5.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark6.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/E-marketing/mark7.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/meta/android1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/meta/android3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/ui ux/ux2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/uom/uom2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/certificate/uom/uom3.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/certificates-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/certificates-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/RK/Desktop/MyPortfolio",
+    "last_opened_file_path": "D:/WorkZone/MyPortfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -297,7 +278,12 @@
       <workItem from="1722234277122" duration="3839000" />
       <workItem from="1722253486377" duration="2074000" />
       <workItem from="1722319716136" duration="3806000" />
-      <workItem from="1722331978303" duration="6093000" />
+      <workItem from="1722331978303" duration="6875000" />
+      <workItem from="1722347948226" duration="100000" />
+      <workItem from="1722349967785" duration="75000" />
+      <workItem from="1722696494945" duration="662000" />
+      <workItem from="1722759025221" duration="74000" />
+      <workItem from="1722923655483" duration="554000" />
     </task>
     <servers />
   </component>
